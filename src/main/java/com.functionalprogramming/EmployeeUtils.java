@@ -16,6 +16,7 @@ public class EmployeeUtils {
     }
 
     public boolean hasBeenEmployedLongerThanFiveYears(Employee employee) {
+
         Predicate<Employee> employedLongerThanFiveYears = (Employee e) -> e.getYearsOfService() > 5;
         return employedLongerThanFiveYears.test(employee);
     }

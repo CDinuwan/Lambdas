@@ -1,13 +1,13 @@
 package test;
 
 import com.functionalprogramming.Employee;
-import org.junit.Assert;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 
 class EmployeeTest {
 
-    private com.example.EmployeeUtils employeeUtils = new com.example.EmployeeUtils();
+    private com.functionalprogramming.EmployeeUtils employeeUtils = new com.functionalprogramming.EmployeeUtils();
 
     @Test
     void employeeFullName() {
